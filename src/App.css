@@ -1,0 +1,48 @@
+.app-container {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+/* 自定义滚动条样式 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* 图片卡片悬停效果 */
+.image-card-hover {
+  transition: all 0.3s ease;
+}
+
+.image-card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* 按钮动画效果 */
+.button-animation {
+  transition: transform 0.2s ease;
+}
+
+.button-animation:active {
+  transform: scale(0.98);
+}
+
+/* 苹果风格的阴影 */
+.apple-shadow {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
